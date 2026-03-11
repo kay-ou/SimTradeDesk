@@ -6,16 +6,16 @@ SimTradeDesk is the dedicated desktop edition of SimTradeLab, delivering a fast,
 
 > **No Python. No environment setup. Just download, install, and start building strategies.**
 
-## Highlights
+## Features
 
-- **PTrade-compatible API** — 52+ core APIs implemented; strategies run identically on PTrade and locally
-- **Strategy editor** — Monaco-based editor with PTrade API autocompletion and syntax highlighting
-- **Backtesting engine** — A-share historical data with real-time log streaming via WebSocket
-- **Parameter optimizer** — Optuna-powered hyperparameter search with walk-forward validation (optimization period + holdout period)
-- **Results visualization** — equity curves, drawdown charts, trade history, and key metrics via ECharts
+- **PTrade-compatible API** — 52+ core APIs; strategies run identically on PTrade and locally
+- **Strategy editor** — autocompletion and syntax highlighting for PTrade API
+- **Backtesting** — A-share historical data with real-time log streaming
+- **Parameter optimizer** — hyperparameter search with walk-forward validation (optimization period + holdout period)
+- **Results visualization** — equity curves, drawdown charts, trade history, and key metrics
 - **Backtest comparison** — overlay NAV curves with time-axis alignment and side-by-side metric tables
 - **Version history** — automatic strategy snapshots with diff view and one-click restore
-- **CSV / PNG export** — export data tables and charts from the results panel
+- **CSV / PNG export** — export data tables and charts
 - **Built-in terminal** — integrated command-line panel for quick debugging
 - **Multi-language UI** — Chinese / English / German
 - **Cross-platform** — Windows, macOS, Linux
@@ -35,8 +35,14 @@ Pre-built installers are available on the [Releases](https://github.com/kay-ou/S
 | Feature | Free | Premium |
 |---------|:----:|:-------:|
 | Strategy editing & backtesting | ✓ | ✓ |
-| Backtest history & comparison | ✓ | ✓ |
+| Backtest history & restore | ✓ | ✓ |
+| Version history & diff | ✓ | ✓ |
+| Multi-language & themes | ✓ | ✓ |
 | Parameter optimizer | | ✓ |
+| Backtest comparison | | ✓ |
+| Trade detail table | | ✓ |
+| Data export (CSV / PNG) | | ✓ |
+| History search | | ✓ |
 | Built-in terminal | | ✓ |
 
 New users receive a **30-day Premium trial** upon registration.
