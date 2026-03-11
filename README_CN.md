@@ -24,26 +24,26 @@ SimTradeDesk 是 SimTradeLab 的专属桌面版，提供快速、安全、完全
 
 预构建安装包可在 [Releases](https://github.com/kay-ou/SimTradeDesk/releases) 页面下载。
 
-| 平台 | 文件 |
-|------|------|
-| Windows | `SimTradeDesk-Setup-x.y.z.exe` |
-| macOS | `SimTradeDesk-x.y.z.dmg` |
-| Linux | `SimTradeDesk-x.y.z-linux.AppImage` / `.deb` |
+| 平台    | 文件                                             |
+| ------- | ------------------------------------------------ |
+| Windows | `SimTradeDesk-Setup-x.y.z.exe`                 |
+| macOS   | `SimTradeDesk-x.y.z.dmg`                       |
+| Linux   | `SimTradeDesk-x.y.z-linux.AppImage` / `.deb` |
 
 ## 产品版本
 
-| 功能 | 免费版 | 高级版 |
-|------|:------:|:------:|
-| 策略编辑与回测 | ✓ | ✓ |
-| 回测历史与还原 | ✓ | ✓ |
-| 版本历史与对比 | ✓ | ✓ |
-| 多语言与主题 | ✓ | ✓ |
-| 参数优化器 | | ✓ |
-| 回测对比 | | ✓ |
-| 交易明细表 | | ✓ |
-| 数据导出（CSV / PNG） | | ✓ |
-| 历史搜索 | | ✓ |
-| 内置终端 | | ✓ |
+| 功能                  | 基础版 | 高级版 |
+| --------------------- | :----: | :----: |
+| 策略编辑与回测        |   ✓   |   ✓   |
+| 回测历史与还原        |   ✓   |   ✓   |
+| 版本历史与对比        |   ✓   |   ✓   |
+| 多语言与主题          |   ✓   |   ✓   |
+| 参数优化器            |        |   ✓   |
+| 回测对比              |        |   ✓   |
+| 交易明细表            |        |   ✓   |
+| 数据导出（CSV / PNG） |        |   ✓   |
+| 历史搜索              |        |   ✓   |
+| 内置终端              |        |   ✓   |
 
 新用户注册即享 **30 天高级版试用**。
 

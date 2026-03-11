@@ -24,26 +24,26 @@ SimTradeDesk is the dedicated desktop edition of SimTradeLab, delivering a fast,
 
 Pre-built installers are available on the [Releases](https://github.com/kay-ou/SimTradeDesk/releases) page.
 
-| Platform | File |
-|---|---|
-| Windows | `SimTradeDesk-Setup-x.y.z.exe` |
-| macOS | `SimTradeDesk-x.y.z.dmg` |
-| Linux | `SimTradeDesk-x.y.z-linux.AppImage` / `.deb` |
+| Platform | File                                             |
+| -------- | ------------------------------------------------ |
+| Windows  | `SimTradeDesk-Setup-x.y.z.exe`                 |
+| macOS    | `SimTradeDesk-x.y.z.dmg`                       |
+| Linux    | `SimTradeDesk-x.y.z-linux.AppImage` / `.deb` |
 
 ## Product Tiers
 
-| Feature | Free | Premium |
-|---------|:----:|:-------:|
-| Strategy editing & backtesting | ✓ | ✓ |
-| Backtest history & restore | ✓ | ✓ |
-| Version history & diff | ✓ | ✓ |
-| Multi-language & themes | ✓ | ✓ |
-| Parameter optimizer | | ✓ |
-| Backtest comparison | | ✓ |
-| Trade detail table | | ✓ |
-| Data export (CSV / PNG) | | ✓ |
-| History search | | ✓ |
-| Built-in terminal | | ✓ |
+| Feature                        | Basic | Premium |
+| ------------------------------ | :---: | :-----: |
+| Strategy editing & backtesting |  ✓  |   ✓   |
+| Backtest history & restore     |  ✓  |   ✓   |
+| Version history & diff         |  ✓  |   ✓   |
+| Multi-language & themes        |  ✓  |   ✓   |
+| Parameter optimizer            |      |   ✓   |
+| Backtest comparison            |      |   ✓   |
+| Trade detail table             |      |   ✓   |
+| Data export (CSV / PNG)        |      |   ✓   |
+| History search                 |      |   ✓   |
+| Built-in terminal              |      |   ✓   |
 
 New users receive a **30-day Premium trial** upon registration.
 
