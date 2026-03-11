@@ -24,7 +24,9 @@ SimTradeDesk 是 SimTradeLab 的专属桌面版，提供快速、安全、完全
 
 | 截图 | 描述 |
 | ---- | ---- |
+| ![登录界面](screenshot/登录界面.png) | 登录界面 |
 | ![主界面](screenshot/主界面.png) | SimTradeDesk 主界面 |
+| ![深色主题](screenshot/深色主题.png) | 深色主题模式 |
 | ![净值曲线对比](screenshot/净值曲线对比.png) | 回测结果净值曲线对比 |
 | ![交易明细](screenshot/交易明细.png) | 交易明细表 |
 | ![优化器](screenshot/优化器.png) | 参数优化器界面 |

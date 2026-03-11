@@ -20,6 +20,22 @@ SimTradeDesk is the dedicated desktop edition of SimTradeLab, delivering a fast,
 - **Multi-language UI** — Chinese / English / German
 - **Cross-platform** — Windows, macOS, Linux
 
+## Screenshots
+
+| Screenshot                                           | Description                                    |
+| ---------------------------------------------------- | ---------------------------------------------- |
+| ![Login](screenshot/Login.png)                       | Login interface                                |
+| ![Main Interface](screenshot/main.png)               | Main interface of SimTradeDesk                 |
+| ![Dark Mode](screenshot/dark_mode.png)               | Dark theme mode                                |
+| ![NAV Overlay](screenshot/NAV_overlay.png)           | Backtest comparison with overlayed NAV curves  |
+| ![Trade Details](screenshot/trade_details.png)       | Trade details table                            |
+| ![Optimizer](screenshot/optimizier.png)              | Parameter optimizer interface                  |
+| ![Data Management](screenshot/data_management.png)   | Data management interface                      |
+| ![Version Diff](screenshot/verion_diff.png)          | Version history with diff view                 |
+| ![User Settings](screenshot/user_settings.png)       | User settings interface                        |
+| ![Terminal](screenshot/terminal.png)                 | Built-in terminal for quick debugging          |
+
+
 ## Download
 
 Pre-built installers are available on the [Releases](https://github.com/kay-ou/SimTradeDesk/releases) page.
@@ -54,20 +70,6 @@ See [CHANGELOG.md](./CHANGELOG.md).
 ## Feedback & Issues
 
 Found a bug or have a feature request? Please open an [Issue](https://github.com/kay-ou/SimTradeDesk/issues).
-
-## Screenshots
-
-| Screenshot                                                   | Description                                    |
-| ------------------------------------------------------------ | ---------------------------------------------- |
-| ![Main Interface](screenshot/main_interface.png)               | Main interface of SimTradeDesk                 |
-| ![Strategy Editor](screenshot/strategy_editor.png)             | Strategy editor with PTrade API autocompletion |
-| ![Backtest Setup](screenshot/backtest_setup.png)               | Backtest configuration settings                |
-| ![Backtest Results](screenshot/backtest_results.png)           | Backtest results overview                      |
-| ![Parameter Optimizer](screenshot/parameter_optimizer.png)     | Parameter optimizer interface                  |
-| ![Results Visualization](screenshot/results_visualization.png) | Results visualization with equity curves       |
-| ![Backtest Comparison](screenshot/backtest_comparison.png)     | Backtest comparison with overlayed NAV curves  |
-| ![Version History](screenshot/version_history.png)             | Version history with diff view                 |
-| ![Built-in Terminal](screenshot/built_in_terminal.png)         | Built-in terminal for quick debugging          |
 
 ## License
 
