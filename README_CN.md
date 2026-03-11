@@ -8,7 +8,7 @@ SimTradeDesk 是 SimTradeLab 的专属桌面版，提供快速、安全、完全
 
 ## 功能
 
-- **兼容 PTrade API** — 已实现 52+ 核心 API，策略在 PTrade 和本地表现完全一致
+- **兼容 PTrade API** — 已实现 46 核心 API，策略在 PTrade 和本地表现完全一致
 - **策略编辑器** — 支持 PTrade API 自动补全和语法高亮
 - **回测** — A股历史数据，实时日志推送
 - **参数优化器** — 超参数搜索，支持滚动验证（优化期 + 留存期）
@@ -19,6 +19,19 @@ SimTradeDesk 是 SimTradeLab 的专属桌面版，提供快速、安全、完全
 - **内置终端** — 集成命令行面板，方便快速调试
 - **多语言界面** — 中文 / 英文 / 德文
 - **跨平台** — Windows、macOS、Linux
+
+## 截图
+
+| 截图 | 描述 |
+| ---- | ---- |
+| ![主界面](screenshot/主界面.png) | SimTradeDesk 主界面 |
+| ![净值曲线对比](screenshot/净值曲线对比.png) | 回测结果净值曲线对比 |
+| ![交易明细](screenshot/交易明细.png) | 交易明细表 |
+| ![优化器](screenshot/优化器.png) | 参数优化器界面 |
+| ![数据管理](screenshot/数据管理.png) | 数据管理界面 |
+| ![版本对比](screenshot/版本对比.png) | 策略版本对比 |
+| ![用户设置](screenshot/用户设置.png) | 用户设置界面 |
+| ![终端嵌入](screenshot/终端嵌入.png) | 内置终端面板 |
 
 ## 下载
 
@@ -54,6 +67,7 @@ SimTradeDesk 是 SimTradeLab 的专属桌面版，提供快速、安全、完全
 ## 反馈与问题
 
 发现 Bug 或有功能建议？请提交 [Issue](https://github.com/kay-ou/SimTradeDesk/issues)。
+
 
 ## 许可证
 

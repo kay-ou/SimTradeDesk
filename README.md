@@ -8,7 +8,7 @@ SimTradeDesk is the dedicated desktop edition of SimTradeLab, delivering a fast,
 
 ## Features
 
-- **PTrade-compatible API** — 52+ core APIs; strategies run identically on PTrade and locally
+- **PTrade-compatible API** — 46 core APIs; strategies run identically on PTrade and locally
 - **Strategy editor** — autocompletion and syntax highlighting for PTrade API
 - **Backtesting** — A-share historical data with real-time log streaming
 - **Parameter optimizer** — hyperparameter search with walk-forward validation (optimization period + holdout period)
@@ -54,6 +54,20 @@ See [CHANGELOG.md](./CHANGELOG.md).
 ## Feedback & Issues
 
 Found a bug or have a feature request? Please open an [Issue](https://github.com/kay-ou/SimTradeDesk/issues).
+
+## Screenshots
+
+| Screenshot                                                   | Description                                    |
+| ------------------------------------------------------------ | ---------------------------------------------- |
+| ![Main Interface](screenshot/main_interface.png)               | Main interface of SimTradeDesk                 |
+| ![Strategy Editor](screenshot/strategy_editor.png)             | Strategy editor with PTrade API autocompletion |
+| ![Backtest Setup](screenshot/backtest_setup.png)               | Backtest configuration settings                |
+| ![Backtest Results](screenshot/backtest_results.png)           | Backtest results overview                      |
+| ![Parameter Optimizer](screenshot/parameter_optimizer.png)     | Parameter optimizer interface                  |
+| ![Results Visualization](screenshot/results_visualization.png) | Results visualization with equity curves       |
+| ![Backtest Comparison](screenshot/backtest_comparison.png)     | Backtest comparison with overlayed NAV curves  |
+| ![Version History](screenshot/version_history.png)             | Version history with diff view                 |
+| ![Built-in Terminal](screenshot/built_in_terminal.png)         | Built-in terminal for quick debugging          |
 
 ## License
 
