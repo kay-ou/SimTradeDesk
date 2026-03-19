@@ -1,6 +1,6 @@
 # SimTradeDesk
 
-[English](./README.md) | **中文**
+[English](./README.md) | **中文** | [Deutsch](./README_DE.md)
 
 SimTradeDesk 是 SimTradeLab 的专属桌面版，提供快速、安全、完全本地化的策略开发、回测、模拟交易与券商端部署环境。它基于开源的 SimTradeLab 内核，同时提供更精致的商业级桌面体验。
 
