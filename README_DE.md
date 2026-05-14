@@ -62,6 +62,10 @@ Vorgefertigte Installationsdateien finden Sie auf der [Releases](https://github.
 
 Neue Benutzer erhalten eine **30-tägige Premium-Testversion** bei der Registrierung.
 
+## Empfehlungsprogramm
+
+Teile deinen Empfehlungscode mit Freunden. Wenn sie sich mit deinem Code anmelden und abonnieren, erhältst du eine Provision, die deinem Kontoguthaben gutgeschrieben wird — automatisch bei der nächsten Verlängerung verrechnet.
+
 ## Changelog
 
 Siehe [CHANGELOG.md](./CHANGELOG.md).
