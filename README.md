@@ -20,6 +20,10 @@ SimTradeDesk is the dedicated desktop edition of SimTradeLab, delivering a fast,
 - **Multi-language UI** — Chinese / English / German
 - **Cross-platform** — Windows, macOS, Linux
 
+## Demo
+
+![SimTradeDesk Demo](screenshot/demo.gif)
+
 ## Screenshots
 
 | Screenshot                                           | Description                                    |

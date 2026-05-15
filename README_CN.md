@@ -20,6 +20,10 @@ SimTradeDesk 是 SimTradeLab 的专属桌面版，提供快速、安全、完全
 - **多语言界面** — 中文 / 英文 / 德文
 - **跨平台** — Windows、macOS、Linux
 
+## 演示
+
+![SimTradeDesk 演示](screenshot/demo.gif)
+
 ## 截图
 
 | 截图 | 描述 |
