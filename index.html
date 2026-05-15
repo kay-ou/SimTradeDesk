@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SimTradeDesk — A股 & 美股量化策略开发平台</title>
+<meta name="description" content="SimTradeDesk 是兼容 PTrade API 的本地量化回测平台。无需 Python 环境，下载安装即可开始策略开发、回测、参数优化。支持 A 股和美股。">
+<meta name="keywords" content="Ptrade替代,A股量化软件,量化回测,本地回测,Python量化,参数优化,SimTradeDesk">
+<link rel="canonical" href="https://simtradedesk.com">
+<style>
+:root {
+  --bg: #0d0d12;
+  --card: #16161e;
+  --border: #2a2a3a;
+  --text: #e4e4ec;
+  --muted: #9898b0;
+  --primary: #9d174d;
+  --accent: #f59e0b;
+  --gradient: linear-gradient(135deg, #1c0820 0%, #9d174d 100%);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+.hero { text-align: center; padding: 80px 0 60px; }
+.hero h1 { font-size: 2.8em; font-weight: 800; background: linear-gradient(135deg, #fda4af 0%, #f59e0b 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 16px; }
+.hero p { font-size: 1.2em; color: var(--muted); max-width: 600px; margin: 0 auto 32px; }
+.hero .tagline { font-size: 0.95em; color: #fda4af; margin-bottom: 8px; }
+.btn { display: inline-block; padding: 12px 32px; border-radius: 8px; font-weight: 600; font-size: 1em; transition: transform .15s; }
+.btn:hover { transform: translateY(-1px); text-decoration: none; }
+.btn-primary { background: var(--gradient); color: #fff; }
+.btn-outline { border: 1px solid var(--border); color: var(--text); margin-left: 12px; }
+
+section { padding: 60px 0; }
+section h2 { font-size: 1.8em; font-weight: 700; text-align: center; margin-bottom: 40px; }
+
+.features { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+.feature { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; }
+.feature h3 { font-size: 1.1em; margin-bottom: 8px; }
+.feature p { color: var(--muted); font-size: 0.95em; }
+
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.gallery img { width: 100%; border-radius: 8px; border: 1px solid var(--border); }
+
+.pricing { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+.plan { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 32px 24px; text-align: center; }
+.plan.premium { border-color: var(--accent); }
+.plan h3 { font-size: 1.2em; margin-bottom: 4px; }
+.plan .price { font-size: 2em; font-weight: 700; margin: 12px 0 4px; }
+.plan .period { color: var(--muted); font-size: 0.9em; margin-bottom: 16px; }
+.plan ul { list-style: none; text-align: left; }
+.plan li { padding: 4px 0; color: var(--muted); font-size: 0.95em; }
+.plan li::before { content: "✓ "; color: var(--accent); }
+
+.download { text-align: center; }
+.download .links { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 24px; }
+.download .btn { font-size: 0.9em; }
+
+.banner { background: var(--gradient); border-radius: 12px; padding: 32px; text-align: center; margin: 40px 0; }
+.banner h3 { color: #fff; font-size: 1.3em; margin-bottom: 8px; }
+.banner p { color: #fda4af; }
+
+footer { text-align: center; padding: 40px 0; color: var(--muted); font-size: 0.85em; border-top: 1px solid var(--border); }
+
+@media (max-width: 640px) {
+  .hero h1 { font-size: 2em; }
+  .btn-outline { margin-left: 0; margin-top: 12px; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header class="hero">
+  <div class="tagline">兼容 PTrade API · 无需 Python 环境</div>
+  <h1>A 股 & 美股量化策略开发平台</h1>
+  <p>策略编辑、回测、参数优化、结果分析，一个桌面应用全搞定。本地开发完成，零改动部署到 PTrade 生产环境。</p>
+  <a href="https://github.com/kay-ou/SimTradeDesk/releases" class="btn btn-primary">免费下载</a>
+  <a href="#features" class="btn btn-outline">了解更多</a>
+</header>
+
+<section id="features">
+  <h2>功能</h2>
+  <div class="features">
+    <div class="feature"><h3>策略编辑器</h3><p>Monaco 编辑器 + PTrade API 自动补全，学习曲线为零</p></div>
+    <div class="feature"><h3>双市场回测</h3><p>A 股 + 美股，日线/分钟线，T+1 交收建模，实时日志推送</p></div>
+    <div class="feature"><h3>参数优化器</h3><p>Optuna 超参搜索 + 滚动验证 + 防过拟合，一键找到最优参数</p></div>
+    <div class="feature"><h3>结果可视化</h3><p>净值曲线对比、回撤图表、交易明细、关键指标，全部可导出</p></div>
+    <div class="feature"><h3>版本历史</h3><p>自动策略快照 + 差异对比 + 一键恢复，再也不怕改坏代码</p></div>
+    <div class="feature"><h3>49 个 PTrade API</h3><p>交易/持仓/行情/基本面/技术指标，本地与线上行为完全一致</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>截图</h2>
+  <div class="gallery">
+    <img src="screenshot/main.png" alt="主界面" loading="lazy">
+    <img src="screenshot/NAV_overlay.png" alt="回测对比" loading="lazy">
+    <img src="screenshot/optimizier.png" alt="参数优化器" loading="lazy">
+    <img src="screenshot/trade_details.png" alt="交易明细" loading="lazy">
+    <img src="screenshot/dark_mode.png" alt="深色模式" loading="lazy">
+    <img src="screenshot/verion_diff.png" alt="版本对比" loading="lazy">
+  </div>
+</section>
+
+<section>
+  <h2>版本与定价</h2>
+  <div class="pricing">
+    <div class="plan">
+      <h3>基础版</h3>
+      <div class="price">¥20<span class="period">/月</span></div>
+      <ul>
+        <li>策略编辑与回测</li>
+        <li>回测历史与还原</li>
+        <li>版本历史与对比</li>
+        <li>多语言与主题</li>
+      </ul>
+    </div>
+    <div class="plan premium">
+      <h3>高级版</h3>
+      <div class="price">¥80<span class="period">/月</span></div>
+      <ul>
+        <li>基础版全部功能</li>
+        <li>美股回测</li>
+        <li>模拟实盘（live.py）</li>
+        <li>参数优化器</li>
+        <li>回测对比</li>
+        <li>数据导出（CSV/PNG）</li>
+        <li>内置终端</li>
+      </ul>
+    </div>
+  </div>
+  <p style="text-align:center;color:var(--muted);margin-top:16px">新用户注册即享 <strong style="color:var(--accent)">30 天高级版免费试用</strong></p>
+</section>
+
+<div class="banner">
+  <h3>推荐返利计划</h3>
+  <p>分享你的推荐码给朋友，对方首月减 ¥10，你每次续费都能获得分成收益</p>
+</div>
+
+<section class="download">
+  <h2>下载</h2>
+  <p style="color:var(--muted);margin-bottom:8px">无需 Python，无需配环境。下载安装即可开始写策略。</p>
+  <div class="links">
+    <a href="https://github.com/kay-ou/SimTradeDesk/releases/latest" class="btn btn-primary">Windows</a>
+    <a href="https://github.com/kay-ou/SimTradeDesk/releases/latest" class="btn btn-primary">macOS</a>
+    <a href="https://github.com/kay-ou/SimTradeDesk/releases/latest" class="btn btn-primary">Linux</a>
+  </div>
+</section>
+
+<footer>
+  <p>SimTradeDesk · <a href="https://github.com/kay-ou/SimTradeDesk">GitHub</a> · <a href="mailto:kayou@duck.com">kayou@duck.com</a></p>
+</footer>
+
+</div>
+</body>
+</html>
