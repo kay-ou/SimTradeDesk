@@ -65,7 +65,7 @@ New users receive a **30-day Premium trial** upon registration.
 
 ## Referral Program
 
-Share your referral code with friends. When they sign up with your code and subscribe, you earn commission credited to your account balance — automatically applied toward your next renewal.
+Share your referral code with friends. They get **¥10 off** their first month, and you earn commission on every subscription payment — automatically credited to your account balance toward your next renewal.
 
 ## Changelog
 

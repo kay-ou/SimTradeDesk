@@ -64,7 +64,7 @@ Neue Benutzer erhalten eine **30-tägige Premium-Testversion** bei der Registrie
 
 ## Empfehlungsprogramm
 
-Teile deinen Empfehlungscode mit Freunden. Wenn sie sich mit deinem Code anmelden und abonnieren, erhältst du eine Provision, die deinem Kontoguthaben gutgeschrieben wird — automatisch bei der nächsten Verlängerung verrechnet.
+Teile deinen Empfehlungscode mit Freunden. Sie erhalten **¥10 Rabatt** auf den ersten Monat, und du erhältst eine Provision bei jeder Zahlung — automatisch deinem Kontoguthaben gutgeschrieben.
 
 ## Changelog
 
